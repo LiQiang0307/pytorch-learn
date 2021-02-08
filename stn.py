@@ -3,7 +3,7 @@ Descripttion:
 version: 
 Author: LiQiang
 Date: 2021-02-08 20:25:09
-LastEditTime: 2021-02-08 21:37:11
+LastEditTime: 2021-02-08 22:25:58
 '''
 import torch
 import torch.nn as nn
@@ -173,7 +173,7 @@ def visualize_stn():
             torchvision.utils.make_grid(input_tensor)
             )
         out_grid=convert_image_np(
-            torchvision.utils.make_grid(transforms_input_tensor)
+            torchvision.utils.make_grid(transformed_input_tensor)
             )
         #plot the results side-by-side
         f ,axarr=plt.subplots(1,2)
