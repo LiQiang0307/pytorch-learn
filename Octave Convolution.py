@@ -5,7 +5,6 @@ Author: LiQiang
 Date: 2021-07-02 15:00:39
 LastEditTime: 2021-07-02 16:17:54
 '''
-from octconv import Conv_BN_ACT
 import torch
 import torch.nn as nn
 import math
